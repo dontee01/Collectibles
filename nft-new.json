@@ -1,0 +1,15 @@
+{
+    "name":"NFT Test",
+    "hash": "QmQ4wvdFDs53MeHNJuK1V5wSN9L5FV4LnmNgDU7qAd3wH1", 
+    "by": "John",
+    "description": "NFT test digital art", 
+    "external_url": "https://ipfs.io/ipfs/QmQ4wvdFDs53MeHNJuK1V5wSN9L5FV4LnmNgDU7qAd3wH1", 
+    "image": "ipfs://QmQ4wvdFDs53MeHNJuK1V5wSN9L5FV4LnmNgDU7qAd3wH1",
+
+    "attributes": [
+        {
+          "trait_type": "Test", 
+          "value": "100"
+        }
+    ]
+}
