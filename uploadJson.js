@@ -1,5 +1,5 @@
 const pinataApiKey = "key";
-const pinataSecretApiKey = "secrete";
+const pinataSecretApiKey = "secret";
 const axios = require("axios");
 const fs = require("fs");
 const FormData = require("form-data");
@@ -13,7 +13,7 @@ const pinFileToIPFS = async () => {
 
     let data = new FormData();
 
-    data.append("file", fs.createReadStream("./nft-new.json"));
+    data.append("file", fs.createReadStream("./meta/chiromic-eagle.json"));
 7
     const res = await axios.post(url, data, {
         maxContentLength: "Infinity",

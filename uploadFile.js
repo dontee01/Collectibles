@@ -1,8 +1,10 @@
 const pinataApiKey = "key";
-const pinataSecretApiKey = "secrete";
+const pinataSecretApiKey = "secret";
 const axios = require("axios");
 const fs = require("fs");
 const FormData = require("form-data");
+
+// const mnemonic = fs.readFileSync('.secret').toString().trim();
 
 // import { post } from "axios";
 // import { createReadStream } from "fs";
@@ -13,7 +15,7 @@ const pinFileToIPFS = async () => {
 
     let data = new FormData();
 
-    data.append("file", fs.createReadStream("./nft-test.jpeg"));
+    data.append("file", fs.createReadStream("./img/chiromic-eagleb.jpg"));
 7
     const res = await axios.post(url, data, {
         maxContentLength: "Infinity",

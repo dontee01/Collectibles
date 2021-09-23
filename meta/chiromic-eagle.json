@@ -1,0 +1,16 @@
+{
+    "name":"Chiromic Eagleb",
+    "hash": "QmYZ4g4Q6VWJaZyc8abQTbWqjDfxMxqvhtsJjhaHJ9ZC5G", 
+    "by": "John",
+    "artist": "Chiromic Arts",
+    "description": "NFT test Chiromic digital art", 
+    "external_url": "https://ipfs.io/ipfs/QmYZ4g4Q6VWJaZyc8abQTbWqjDfxMxqvhtsJjhaHJ9ZC5G", 
+    "image": "ipfs://QmYZ4g4Q6VWJaZyc8abQTbWqjDfxMxqvhtsJjhaHJ9ZC5G",
+
+    "attributes": [
+        {
+          "trait_type": "Strength", 
+          "value": "100"
+        }
+    ]
+}
